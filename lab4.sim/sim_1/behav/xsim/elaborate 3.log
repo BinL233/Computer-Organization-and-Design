@@ -1,0 +1,29 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Software/Vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 35445baff5204a2496e9e43ffd96d314 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbrench1_behav xil_defaultlib.testbrench1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'wdo' [C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.srcs/sim_1/new/testbrench1.v:50]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.PcAdder
+Compiling module xil_defaultlib.IFIDPipelineReg
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.RegrtMultiplexer
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.ImmediateExtender
+Compiling module xil_defaultlib.IDEXEPipelineReg
+Compiling module xil_defaultlib.aluMultiplexer
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.exememPipelineReg
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.memwbPipelineReg
+Compiling module xil_defaultlib.Datapath
+Compiling module xil_defaultlib.testbrench1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbrench1_behav

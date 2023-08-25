@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Aug  1 15:16:48 2022
+# Process ID: 1256
+# Current directory: C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12832 C:\Users\lenovo\iCloudDrive\Assignments\CMPEN331\lab4\lab4\lab4.xpr
+# Log file: C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/vivado.log
+# Journal file: C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.xpr
+update_compile_order -fileset sources_1

@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Aug  1 14:53:28 2022
+# Process ID: 16628
+# Current directory: C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.runs/synth_1
+# Command line: vivado.exe -log Datapath.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Datapath.tcl
+# Log file: C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.runs/synth_1/Datapath.vds
+# Journal file: C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Datapath.tcl -notrace
+Command: synth_design -top Datapath -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 9280

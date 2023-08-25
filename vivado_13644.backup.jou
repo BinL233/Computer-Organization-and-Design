@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jul 19 17:03:32 2022
+# Process ID: 13644
+# Current directory: C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18984 C:\Users\lenovo\iCloudDrive\Assignments\CMPEN331\lab4\lab4\lab4.xpr
+# Log file: C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/vivado.log
+# Journal file: C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse {C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.srcs/sources_1/new/ControlUnit.v C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.srcs/sources_1/new/exememPipelineReg.v C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.srcs/sources_1/new/memwbPipelineReg.v C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.srcs/sources_1/new/InstructionMemory.v C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.srcs/sources_1/new/PcAdder.v C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.srcs/sources_1/new/Datapath.v C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.srcs/sources_1/new/aluMultiplexer.v C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.srcs/sources_1/new/dataMemory.v C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.srcs/sources_1/new/ImmediateExtender.v C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.srcs/sources_1/new/IDEXEPipelineReg.v C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.srcs/sources_1/new/RegrtMultiplexer.v C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.srcs/sources_1/new/RegisterFile.v C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.srcs/sources_1/new/alu.v C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.srcs/sources_1/new/IFIDPipelineReg.v C:/Users/lenovo/iCloudDrive/Assignments/CMPEN331/lab4/lab4/lab4.srcs/sources_1/new/PC.v}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source testbrench1.tcl
+close_sim
